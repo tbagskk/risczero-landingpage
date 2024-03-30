@@ -35,6 +35,7 @@ import Infos4 from '../../Assets/infos4.svg';
 import { MdKeyboardArrowDown } from "react-icons/md";
 import { MdArrowOutward } from "react-icons/md";
 import { GoArrowRight } from "react-icons/go";
+import { AiOutlineMenu } from "react-icons/ai";
 
 
 
@@ -77,6 +78,7 @@ export default function Home() {
                 </div>
 
                 <div className='home-header-menu'>
+                    <AiOutlineMenu className='home-header-menu-tel'/>
                     <div className='home-header-menu-button'>
                         <p>Technology</p>
                         <MdKeyboardArrowDown className='home-header-arrow'/>
