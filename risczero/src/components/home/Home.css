@@ -1,3 +1,12 @@
+.home-container-all {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
 .home-container {
     height: 100%;
     width: 100%;
@@ -8,8 +17,9 @@
     background-color: black;
     position: relative;
     overflow: hidden; 
-    min-width: 1000px;
+    min-width: 300px;
     font-family: "Montserrat";
+    max-width: 2000px;
 }
 
 
@@ -162,11 +172,14 @@
    
 }
 .home-title-title-text {
-    font-size: 6.8vw;
+    font-size: 100px;
     color: white;
     font-family: "Montserrat";
     font-weight: 700;
     margin: 0;
+    text-align: left;
+    width: 100%;
+    padding-left: 5%;
  }
 
  .home-title-button {
@@ -204,13 +217,313 @@
 }
 
 .home-world {
-    border: 1px solid white;
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 1;
 }
 
 .home-world-img {
     height: 100%;
     width: 100%;
+    max-width: 1400px;
+    
+}
+
+.home-infos {
+    width: 100%;
+    margin-top: -230px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    padding-top: 100px;
+    padding-bottom: 250px;
+    z-index: 2;
+    background-color: black;
+    flex-wrap: wrap;
+}
+
+.home-infos-box {
+    height: 330px;
+    width: 310px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+    flex-direction: column;
+    padding-right: 70px;
+    position: relative;
+}
+
+.home-infos-box-title {
+    font-size: 29px;
+    color: white;
+    font-weight: 600;
+    margin: 0;
+}
+
+.home-infos-box-text {
+    color: white;
+    font-size: 17px;
+    margin: 0;
+    font-weight: 500;
+}
+
+.home-infos-box-img {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+
+.home-pourcentage {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    padding-bottom: 100px;
+    flex-wrap: wrap;
+}
+
+.home-pourcentage-box {
+    height: 310px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.home-pourcentage-box p {
+    color: white;
+    font-size: 1.4em;
+    font-weight: 500;
+    height: 50px;
+}
+
+.home-pourcentage-img {
+    height: 80px;
+    
+}
+
+.home-brands {
+    min-height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 5%;
+    box-sizing: border-box;
+    flex-direction: column;
+}
+
+.home-brands-title {
+    font-size: 54px;
+    color: white;
+    font-weight: 800;
+    width: 100%;
+    text-align: left;
+}
+
+.home-brands-container-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap:25px;
+    flex-wrap: wrap;
+}
+
+.home-brands-icons {
+    border: 1px solid white;
+    border-radius: 20px;
+    width: 160px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-brands-img {
+    height: 80%;
+    width: 80%;
+}
+
+.home-news {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 5%;
+    box-sizing: border-box;
+}
+
+.home-news-container-articles {
+
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:10px
+   
+}
+
+.home-news-articles {
+    height: 140px;
+    width: 415px;
+    background-color: #B5B5B5;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2%;
+    box-sizing: border-box;
+    border: 5px solid #B5B5B5;
+    cursor: pointer;
+}
+
+.home-news-articles-title {
+    font-weight: 800;
+}
+
+.home-news-articles-container-date {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.home-news-articles:hover {
+    border: 5px solid #FEFF9D;
+}
+
+.home-news-articles-container-date p {
+    font-size: 13px;
+}
+
+.home-news-button-arrow {
+    height: 40px;
+    width: 40px;
+}
+
+.home-investors {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 5%;
+    box-sizing: border-box;
+}
+
+.home-investors-brands {
+    height: 110px;
+    width: 305px;
+    border: 1px solid white;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.home-investors-img {
+    height: 70%;
+    width: 70%;
+}
+
+.home-investors-container-brands {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 22px;
+}
+
+.home-footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5%;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.home-footer-left-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.home-footer-left-title {
+    color:white;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.home-footer-left-form-text {
+    color: white;
+    font-size: 18px;
+}
+
+.home-footer-left-button {
+    width: 80px;
+    height: 40px;
+    background-color: black;
+    border: 1px solid #FEFF9D;
+    border-radius: 5px;
+    color: #FEFF9D;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.home-footer-left-input {
+    width: 250px;
+    height: 40px;
+    padding: 0;
+    margin: 0;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+
+.home-footerleft-form {
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.home-footer-left-container-input {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.home-footer-right-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.home-footer-right-container-left {
+}
+
+.home-footer-right-text {
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+    margin: 5px;
 }
